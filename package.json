@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon",
     "lint": "eslint . --fix",
-    "build": "node ./build.js"
+    "build": "node ./build.js",
+    "start": "node dist/index.js",
+    "heroku-postbuild": "tsc"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
