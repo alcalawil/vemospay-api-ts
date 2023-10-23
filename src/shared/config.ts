@@ -25,7 +25,7 @@ export type Config = {
 
 export const config: Config = {
 	server: {
-		port: Number(env.SERVER_PORT || 2023)
+		port: Number(env.PORT || 2023)
 	},
 	db: {
 		url: env.DB_URL || 'mongodb://localhost:27017/myDb'
