@@ -1,4 +1,4 @@
-import { USER_ALREADY_EXISTS, USER_NOT_FOUND } from '@shared/errors';
+import { USER_ALREADY_EXISTS, USER_NOT_FOUND } from '../../shared/errors';
 import { UserModel } from './model';
 import { User } from '@types';
 import bcrypt from 'bcrypt';

@@ -1,4 +1,4 @@
-import { User } from '@shared/types';
+import { User } from '../../shared/types';
 import { AuthService } from './auth.service';
 import { UsersRepo } from './repo';
 

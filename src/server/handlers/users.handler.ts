@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { UsersModule } from '../../modules';
 import { UpdateUserJoiSchema, UserJoiSchema } from '../common/validators';
 import { respondError } from '../common/utils';
-import { INVALID_AUTH_PARAMS } from '@shared/errors';
+import { INVALID_AUTH_PARAMS } from '../../shared/errors';
 
 export function newUsersHandler(usersMod: UsersModule) {
 	async function createUser(req: Request, res: Response) {

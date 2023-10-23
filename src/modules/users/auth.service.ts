@@ -1,8 +1,8 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import type { User } from '@types';
-import { INVALID_AUTH_PARAMS } from '@shared/errors';
-import { Config } from '@shared/config';
+import { INVALID_AUTH_PARAMS } from '../../shared/errors';
+import { Config } from '../../shared/config';
 import { UsersRepo } from './repo';
 
 export interface AuthService {

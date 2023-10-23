@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { config } from '@shared/config';
+import { config } from '../../shared/config';
 import { TokenPayload } from '@shared/types';
 
 export const jwtAuth = (req: Request, res: Response, next: NextFunction) => {
